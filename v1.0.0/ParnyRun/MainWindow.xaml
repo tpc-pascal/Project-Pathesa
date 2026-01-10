@@ -1,0 +1,25 @@
+﻿<Window x:Name="windowMain" x:Class="ParnyRun.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ParnyRun"
+        mc:Ignorable="d"
+        Title="ParnyRun" Height="450" Width="800" KeyDown="windowMain_KeyDown" Loaded="windowMain_Loaded">
+    <Grid Background="#FF23C4AB">
+        <Rectangle x:Name="rtgGround" HorizontalAlignment="Center" Height="111" Margin="0,323,0,0" VerticalAlignment="Top" Width="800" Fill="#FF276D19"/>
+        <Canvas x:Name="canvasScreen">
+            <Rectangle x:Name="rtgPascal" Height="80" Canvas.Left="278" Stroke="Black" Canvas.Top="329" Width="80" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="Images\Pascal.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            <Button x:Name="btnCaiDat" Content="Cài Đặt" Canvas.Left="327" Canvas.Top="230" FontSize="36" Height="62" Width="146" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnCaiDat_Click"/>
+            <Button x:Name="btnBatDau" Content="Bắt Đầu" Canvas.Left="327" Canvas.Top="153" FontSize="36" Height="62" Width="146" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btnBatDau_Click"/>
+        </Canvas>
+        <Label x:Name="lblParnyRun" Content="Parny Run" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" FontSize="72" FontWeight="Bold"/>
+        <Label x:Name="lblDiem" Content="Điểm: 0" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="22" FontWeight="Bold" Visibility="Collapsed"/>
+        <TextBlock x:Name="txbIntro" HorizontalAlignment="Left" Margin="360,339,0,0" TextWrapping="Wrap" Text="@tpc-pascal" VerticalAlignment="Top" Foreground="White" FontSize="30" FontWeight="Bold"/>
+
+    </Grid>
+</Window>

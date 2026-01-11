@@ -6,6 +6,11 @@ ParnyRun
 
 ---
 
+## Framework
+.NET Framework 4.7.2
+
+---
+
 ## Idea
 Dino Run mỗi khi mất mạng thường hay chơi
 
@@ -13,6 +18,11 @@ Dino Run mỗi khi mất mạng thường hay chơi
 
 ## Version
 v1.0.0 - Character can jump but Obstacle can't
+
+---
+
+## Release
+Các bản phát hành ở dạng file nén (.rar), vui lòng giải nén và chạy file setup.exe để sử dụng
 
 ---
 

@@ -18,6 +18,7 @@ Dino Run mỗi khi mất mạng thường hay chơi
 
 ## Version
 v1.0.0 - Character can jump but Obstacle can't
+v1.1.0 - Obstacle can move, Point can work but Hitbox doesn't seem to work
 
 ---
 

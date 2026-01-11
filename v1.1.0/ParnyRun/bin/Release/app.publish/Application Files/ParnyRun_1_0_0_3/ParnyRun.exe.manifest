@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ParnyRun.exe" version="1.0.0.3" publicKeyToken="0c1201ad09581c1d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ParnyRun" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ParnyRun.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ParnyRun.exe" size="1085952">
+      <assemblyIdentity name="ParnyRun" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YkPdN6qNgA90tLP3SGnr6QTmQBabGlz701rU/Q9MVYo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ParnyRun.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PANA-CFXZ6-PSCL\tpc_pascal" issuerKeyHash="5ff73a1e3360c3d06b0c18e501947410e3f178e4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LiET1vWNwc7jDdbgJUWJ9nmSNSHM6DygCa3nzXsZzNc=</DigestValue></Reference></SignedInfo><SignatureValue>TKvFafqz2GvC2dFKkIoK2fpDbmbg1Zw+2X6OYKnegZJs11o1XTkOJmjC0Uzz5wvZL2XXQHda01PeotOEKuxvjKAnCxOUy8TiyyPK8J8wjUOfMCZnyPkGraHyjlsMORz8HeG+vdNL0LZ/lvRsj/LLk0N03r9VbsWJCK+ZDoEud1A=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mv9fGHMoRQa5mDNBoms1Cm4vHQ3UjEXwNoR3tYjpfMV/JgB/3gu559eLhHklsKsZb8oLM5EtlZKyfMXC4GI/P4N6Ay5wSS2oX28GGNAmqmuEVogsGYvNyHwqLZi0m9vXPu7gPsl6heqYdzX2m0xYPaFNwmJhWvWCeSmHRscsWIk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d7cc197bcde7ad09a03ce8cc21359279f6894525e0d60de3cec18df5d613212e" Description="" Url=""><as:assemblyIdentity name="ParnyRun.exe" version="1.0.0.3" publicKeyToken="0c1201ad09581c1d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PANA-CFXZ6-PSCL\tpc_pascal</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>wbinqGdiSs94TkL4CwPb06q6i6jKKKXT9MNk2BG0JrM=</DigestValue></Reference></SignedInfo><SignatureValue>hyxF7gQxZpPD5qz/cpm717ZGIlqBdBi8qDZVPlcUBILgTgLEdOtxbbDdU5BJb4wkKWuALsQZNVGuihvL5opQlMGf5AuGIiY7xHWjZt8kDcogYPjEkEC4Y3ZgNjG8WSldb6jgA1QcTWQNiKwNisMkh2PVfFWD099uzYxpFO8o0PE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mv9fGHMoRQa5mDNBoms1Cm4vHQ3UjEXwNoR3tYjpfMV/JgB/3gu559eLhHklsKsZb8oLM5EtlZKyfMXC4GI/P4N6Ay5wSS2oX28GGNAmqmuEVogsGYvNyHwqLZi0m9vXPu7gPsl6heqYdzX2m0xYPaFNwmJhWvWCeSmHRscsWIk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICATCCAWqgAwIBAgIQIxjYUboYUrdOh0jddE9a4jANBgkqhkiG9w0BAQsFADA/MT0wOwYDVQQDHjQAUABBAE4AQQAtAEMARgBYAFoANgAtAFAAUwBDAEwAXAB0AHAAYwBfAHAAYQBzAGMAYQBsMB4XDTI2MDExMTE2MTIwN1oXDTI3MDExMTIyMTIwN1owPzE9MDsGA1UEAx40AFAAQQBOAEEALQBDAEYAWABaADYALQBQAFMAQwBMAFwAdABwAGMAXwBwAGEAcwBjAGEAbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAmv9fGHMoRQa5mDNBoms1Cm4vHQ3UjEXwNoR3tYjpfMV/JgB/3gu559eLhHklsKsZb8oLM5EtlZKyfMXC4GI/P4N6Ay5wSS2oX28GGNAmqmuEVogsGYvNyHwqLZi0m9vXPu7gPsl6heqYdzX2m0xYPaFNwmJhWvWCeSmHRscsWIkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAQkGGEkeazybJpTeWlyhPnHtYOxHoyBuDpR1hyXb6H8h1kfdodEvXJEEwKVsH2jNSY5X3kBbsY17FzZbv/IwG5WNi8hXlgZyuQVSFJubFCB+O9hkSdHWBFGAzw2y/SrXx4GLChb4Y/iQInx+gNLPWOoEgVMq1Z10/1huAJbWpz+g==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

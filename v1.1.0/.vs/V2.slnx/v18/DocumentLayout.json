@@ -1,0 +1,60 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tpc_pascal\\source\\repos\\ProjectPathesa\\V2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AF370104-AA53-4078-B590-2A2CFD3C72E7}|ParnyRun\\ParnyRun.csproj|c:\\users\\tpc_pascal\\source\\repos\\projectpathesa\\v2\\parnyrun\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF370104-AA53-4078-B590-2A2CFD3C72E7}|ParnyRun\\ParnyRun.csproj|solutionrelative:parnyrun\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF370104-AA53-4078-B590-2A2CFD3C72E7}|ParnyRun\\ParnyRun.csproj|C:\\Users\\tpc_pascal\\source\\repos\\ProjectPathesa\\V2\\parnyrun\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AF370104-AA53-4078-B590-2A2CFD3C72E7}|ParnyRun\\ParnyRun.csproj|solutionrelative:parnyrun\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tpc_pascal\\source\\repos\\ProjectPathesa\\V2\\ParnyRun\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ParnyRun\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\tpc_pascal\\source\\repos\\ProjectPathesa\\V2\\ParnyRun\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ParnyRun\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAIwKUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-07T06:17:34.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\tpc_pascal\\source\\repos\\ProjectPathesa\\V2\\ParnyRun\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ParnyRun\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\tpc_pascal\\source\\repos\\ProjectPathesa\\V2\\ParnyRun\\MainWindow.xaml",
+              "RelativeToolTip": "ParnyRun\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-10T08:21:15.36Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

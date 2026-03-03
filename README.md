@@ -16,6 +16,11 @@ Dino Run mỗi khi mất mạng thường hay chơi
 
 ---
 
+## Control
+Space: nhảy tại chỗ
+
+---
+
 ## Version
 v1.0.0 - Character can jump but Obstacle can't
 

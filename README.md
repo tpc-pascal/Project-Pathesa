@@ -1,9 +1,9 @@
 # ParnyRun
 
-ParnyRun - A 2D endless runner game built with C# and WPF, featuring dynamic obstacle generation, physics-based jumping, and real-time score tracking
+ParnyRun - A 2D endless runner game built with C# and WPF, featuring dynamic obstacle generation, physics-based jumping, and real-time score tracking.
 
 <p align="center">
-  <img src="Parny_Run.png" width="625" alt="Parny Run Banner">
+  <img src="Parny_Run.png" width="400" alt="Parny Run Banner">
 </p>
 
 <p align="center">

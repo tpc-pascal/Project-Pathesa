@@ -29,12 +29,14 @@ Hệ thống được thiết kế tập trung vào 3 cốt lõi kỹ thuật:
 
 ```text
 Project-Pathesa/
-├── assets/             # Hình ảnh (Banner, Sprites), âm thanh và tài nguyên game
-├── docs/               # Tài liệu kỹ thuật, sơ đồ thuật toán (Flowchart, Use Case)
-├── src/                # Mã nguồn chính (.sln, .csproj, Views, Models)
-├── .gitignore          # Cấu hình loại bỏ file rác khi commit
-├── LICENSE             # Giấy phép MIT
-└── README.md           # Hướng dẫn dự án
+├── assets/
+├── docs/
+├── src/
+├── .gitignore
+├── CONTRIBUTING.md
+├── CREDITS.md
+├── LICENSE
+└── README.md
 ```
 
 ## 🎉 Tác giả
